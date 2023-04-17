@@ -1,0 +1,329 @@
+header{
+    display: block;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    border-bottom: 1px solid grey;
+    z-index: 2;
+}
+main{                   /*header de bir uzunliq deyisikliyi olsa demeli maindede paddin top deyismelidi */
+    width: 100%;
+    padding-top: 15vh;
+    height: fit-content;
+    display: block;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    z-index: 3;
+    background-color: black;
+}
+a{ 
+    text-decoration: none !important; 
+    color: black !important;
+}
+a:hover{color: #009FBD !important;}
+.container-fluid{
+    padding: 0%;
+    justify-content:start !important;    /* all nav bar body */
+} 
+.navbar{                                        /* nav bar */
+    background-color: white !important;
+    height: 15vh;
+    padding: 10px;
+}
+.navbar-brand{  /*loqo place*/
+    font-size: 2em;
+    padding: 0%;
+    margin-right: 0%;
+}
+.nav{       /* nav ul */
+    width: 60%;
+    font-size: 1.3em;
+    margin-left: 11%;
+}
+.nav-item{      /* li  */
+    margin-right: 8%;
+}
+.sing_up {   /* sing up buttom */
+    margin-left: 4%;
+    margin-right: 1%;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+} 
+.sing_up:focus:after,
+.sing_up:hover:after {
+    width: 100%;
+    left: 0%;
+}
+.sing_up:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+.notifications{     /* notifications buttom */
+    background: none;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.notifications:hover {
+    background: rgba(170, 170, 170, 0.062);
+    transition: 0.5s;
+}
+/*gun 2*/
+.nav-active {   /* bu header function ucun nezerde tutulmus css di*/
+    height: 13vh;
+    transition: 0.7s;
+}
+.big_text_place{    /* bu header alitinda nezede tutulmus big text din section css di  (section)*/
+    height:fit-content; /*40vh*/
+    width: 80%;
+    display: inline-block;
+    margin: 0% 10% 0% 10%;
+    background-color: white;
+}
+.bigtext_sm{    /*big text uzerinde olan sosial mendiya linkleri yeri (div) */
+    height: fit-content;
+    width: 50%;
+    margin: 5% 25% 0% 25%;
+    display: flex;
+}
+.b_text{  /* big text ozunun olduqu div ucundu (div)*/
+    height: fit-content;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.bigtext_button{        /* big text sora gelen input eyeri (div) */
+    height: fit-content;
+    width: 60%;
+    margin: 5% 15% 5% 15%;
+    display: inline-block;
+}
+.a_sm{  /* sosial media linki bit text uzerinde (a)*/
+    display: inline-block;
+    margin-right: 5%;
+}
+.a_sm:first-child{margin-left: 30%;}
+.h1_bigtext{        /* big text ozu (h1)*/
+    height: 13vh;
+    font-size: 4em;
+    margin-bottom: 2%;
+    background: -webkit-linear-gradient(0deg, rgba(34,195,66,1) 0%, rgba(45,63,253,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.button_bigtext { /* big text altindaki ilk button sol terefde (button)*/
+ padding: 15px 25px;
+ border: unset;
+ border-radius: 15px;
+ margin-left: 25%;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+.button_bigtext::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ border-radius: 15px;
+ background-color: #212121;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+.button_bigtext:hover::before {width: 100%;}
+.button2{margin-left:5%;} /* big text altindaki sag button (button)*/
+.button2::before{background-color: #009FBD;}
+.a_click:hover{color: #e8e8e8 !important;} /*big text altindaki sol ilk button a tagi (a)*/
+.a_getstart:hover{color: #e8e8e8 !important;} /*big text altindaki sag ilk button a tagi (a)*/
+.cards_place{  /*card hamsinin qoyulduqu yer */
+    width: 90%;
+    height: fit-content;
+    margin: 0% 5% 5% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {  
+  width: 30%;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 10px, rgba(0, 0, 0, 0.3) 10px 1px 23px 3px, rgba(1, 0, 0, 0.2) 0px -1px 3px inset;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  margin-top: 3%;
+  margin-right:3%;
+  font-weight: bolder;
+  color: #fff;
+  border: 1px solid #009FBD;
+}
+.card:hover {
+  transform: scale(1.021);
+}
+.card:active {
+  transform: scale(0.95) rotateZ(1.1deg);
+}
+.card-body{
+    color: #212121;
+    text-align: start;
+}
+.card-link:hover{color: #009FBD !important;}
+.card-img-top{
+    margin: 5% 2.5%;
+    height: 45%;
+    width: 80%;
+}
+.a_card{background-color: #fff;} /*card a si (a) */
+.a_card:hover{background-color: #fff;}
+.btn2{ border: 1px solid black;}
+.btn2:hover{border: 1px solid  black;}
+/*gun 3*/
+.footer_text_area{
+    padding: 0;
+    margin: 0%;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+.main_text_footer{
+    width: 30%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-bottom: 5vh;
+    display: block;
+    color: #fff;
+}
+.link_area_footer{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+.footer_ul_div{
+    display: inline-block;
+    width:fit-content;
+    margin-right: 5%;
+    color: white;
+}
+.link_section{
+    font-size: 1.2em;
+}
+.footer_li{
+    margin-top: 2vh;
+    font-size: 1.2em;
+}
+.footer_link{color: rgb(190, 190, 190) !important;}
+.bord{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(56, 56, 56);
+}
+.icon_f{
+    width: 72%;
+    height: 100%;
+}
+.text_company{
+    font-weight: bold;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+}
+.feedback , .up{
+    width: 60px;
+    height: 60px;
+    z-index: 5;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    top: 75%;
+    left: 91%;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.up {
+    opacity: 0.5;
+    z-index: 4;
+    top: 85%;
+    background-color: #009FBD;
+}
+.fa-up-long{ color: white;}
+.feedback:hover{
+    opacity: 1;
+    transition: 0.25s;
+    background-color: #009FBD;
+}
+.fa-message:hover{color: #fff;}
+.up:hover{
+    opacity: 1;
+    transition: 0.25s;
+}
+.feedback_card{
+    width: 25%;
+    height: fit-content;
+    display: none;
+    z-index: 6;
+    border: 1px solid silver;
+    position: fixed;
+    top: 30%;
+    left: 65%;
+    background-color: #fff;
+}
+.feedback_text_b{
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #fff;
+}
+.feedback_p{
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.btnfeed{
+    width: 90%;
+    height: 15%;
+    display: block;
+    margin: 5% 5% 7% 5%;
+    background-color: transparent;
+    color: #212121;
+    font-size: 1.3em;
+    padding: 12px;
+}

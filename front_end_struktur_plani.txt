@@ -1,0 +1,36 @@
+BUTUN PROJECTE SAMIL OLUNAN TETBIQLER ---
+1.ci comment yazilmasi 
+2.ci class ve id adlarinin mentiq cercivesinde yazilmasi 
+
+
+
+IASTIFADE OLUNACAQ TOOLS VE SAYTLAR !! ---
+
+https://animate.style/
+
+https://uiverse.io/
+
+
+
+INDEX UCUN NEZERDE TUTULAN PLAN 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+VIEW !! ---
+
+header hissesi https://demo.themovation.com/stratus/home-saas-3/#0 buna baxilaraq qrulacaq
+
+header altindaki big text ucun https://uiverse.io/G4b413l/hot-crab-48 istifade edeceyik 
+
+inputlar ucun https://uiverse.io/Mike11jr/warm-zebra-80  veya https://uiverse.io/mobinkakei/cold-bat-89
+
+close buttom lar ucun https://uiverse.io/vinodjangid07/soft-octopus-29
+
+ELAVE OLUNACAQ FUNKSIYALAR !! ---
+
+fixed header hansiki asaqa scroll edende razmeri deyisecek 
+
+
+
+ABOUT UCUN NEZERDE TUTULAN PLAN 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
