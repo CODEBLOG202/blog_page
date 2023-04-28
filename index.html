@@ -16,25 +16,44 @@
     <header id="header">
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLiK7wJc_pGDUxG0Z2SgHcKPQk9ZCcw6qITw&usqp=CAU" alt="Bootstrap" width="100%" height="80vh">
                 </a>
                 <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Disabled</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Disabled</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Disabled</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ai News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wishlist</a>
+                    </li>
+                    <li class="nav-item dropdown" id="Submit_btn">
+                        <a class="nav-link" href="#" role="button">
+                        Submit
+                        </a>
+                        <ul class="dropdown-menu" id="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="image/icons/icons8-wrench-32.png" alt="icon" class="icons_size">
+                                     Add tool
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="image/icons/icons8-news-32.png" alt="icon" class="icons_size">
+                                     Add News
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
                 <button class="sing_up">
-                    <a href="#">Sing up</a>
+                    <a href="#" class="sing_up_a">
+                        <img src="image/icons/icons8-google-32.png" alt="icon" class="icons_size google_icon"> 
+                        Login
+                    </a>
                 </button>
                 <button class="notifications">
                     <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -62,9 +81,14 @@
                 <h1 class="h1_bigtext">Ai for you my dera</h1>
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
             </div>
-            <div class="bigtext_button">
+            <!-- <div class="bigtext_button">
                 <button class="button_bigtext"> <a href="#" class="a_click">Click me!</a></button>
                 <button class="button_bigtext button2"><a href="#" class="a_getstart">Get start</a></button>
+            </div> -->
+            <div class="input-group input-group-lg main_input_place">
+                <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="form-control main_input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Search for find Ai">
+                <button class="btn btn-outline-secondary filter_btn" type="button" id="button-addon2"><strong>Filter </strong><i class="fa-solid fa-filter"></i></button>
             </div>
         </section>
         <section class="cards_place">

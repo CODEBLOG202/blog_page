@@ -34,3 +34,14 @@ fixed header hansiki asaqa scroll edende razmeri deyisecek
 ABOUT UCUN NEZERDE TUTULAN PLAN 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+style.css 330 strok
+
+VIEW !! ---
+
+https://demo.themovation.com/stratus/home-saas-3/#0 burdan image ve yaninda info goturulecek 
+
+https://lumi.uicore.co/ai-software/# card info goturulecek 
+
+https://writer.com/  text area info goturulecek 
+
+ELAVE OLUNACAQ FUNKSIYALAR !! ---
