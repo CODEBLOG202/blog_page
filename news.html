@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style_mobile/style_mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>AI About Page</title>
+    <title>AI News Page</title>
 </head>
 <body id="body">
     <header id="header">
@@ -75,57 +75,81 @@
         <div class="res_nav_body">
             <ul class="res_ul">
                 <li class="res_li"><a class="nav-link active" aria-current="page" href="about.html">About Us</a></li>
-                <li class="res_li"><a class="nav-link" href="#">Ai News</a></li>
-                <li class="res_li"><a class="nav-link" href="#">Favorites</a></li>
-                <li class="res_li"><a class="nav-link" href="#">Categories</a></li>
-                <li class="res_li"><a class="nav-link" href="#">Sign In <i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+                <li class="res_li"><a class="nav-link" href="news.html">Ai News</a></li>
+                <li class="res_li"><a class="nav-link" href="favorites.html">Favorites</a></li>
+                <li class="res_li"><a class="nav-link" href="categories.html">Categories</a></li>
+                <li class="res_li"><a class="nav-link" href="signin.html">Sign In <i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </div>
-    <main id="main" class="main_about">
-        <section class="about_section">
-            <div class="about_head">
-                <h1 class="about_bigtext">Want to make your job easier?</h1>
-                <h2 class="about_title">using this site you can easily solve your problems with Ai</h2>
-                <hr class="hr_about">
-            </div>
-            <div class="title_section">
-                <h2 class="title_one">
-                    This site is for people who want to quickly find the same artificial 
-                    intelligence to solve their problems with new technologies.
-                </h2>
-                <h2 class="title_one">
-                    On this web site you can rate AI
-                    for your tasks
-                </h2>
-            </div>
-        </section>
-        <section class="about_cards_area">
-            <div class="about_card">
-                <div class="info_circle">
-                    <img src="image/icons/icons8-innovation-64.png" class="info_circle_img" alt="info 1 icon">
+    <main id="main">
+        <div class="news_filter">
+            <h1 class="h1_header">Latest AI News</h1>
+            <p class="news_statistica">600 News.</p>
+            <div class="filter_area_news">
+                <div class="dropdown drpdow2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter By Time
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Today</a></li>
+                      <li><a class="dropdown-item" href="#">This Week</a></li>
+                      <li><a class="dropdown-item" href="#">This Month</a></li>
+                      <li><a class="dropdown-item" href="#">All Time</a></li>
+                    </ul>
                 </div>
-                <div class="about_card_title">
-                    <h3 class="card_title_h3">We share the new innovations in Ai </h3>
+                <div class="dropdown drpdow2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter by Category
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">All</a></li>
+                      <li><a class="dropdown-item" href="#">Updates</a></li>
+                      <li><a class="dropdown-item" href="#">Interesting</a></li>
+                      <li><a class="dropdown-item" href="#">Video</a></li>
+                      <li><a class="dropdown-item" href="#">Podcast</a></li>
+                      <li><a class="dropdown-item" href="#">Learn</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="about_card">
-                <div class="info_circle">
-                    <img src="image/icons/icons8-search-64.png" class="info_circle_img" alt="info 1 icon">
-                </div>
-                <div class="about_card_title">
-                    <h3 class="card_title_h3">Get your searches easier </h3>
-                </div>
-            </div>
-            <div class="about_card">
-                <div class="info_circle">
-                    <img src="image/icons/icons8-wishlist-64.png" class="info_circle_img" alt="info 1 icon">
-                </div>
-                <div class="about_card_title">
-                    <h3 class="card_title_h3">We care about your time </h3>
+                <div class="dropdown drpdow2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sort By
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Featured</a></li>
+                      <li><a class="dropdown-item" href="#">New</a></li>
+                      <li><a class="dropdown-item" href="#">Popular</a></li>
+                    </ul>
                 </div>
             </div>
-            
+        </div>
+        <section class="cards_place">
+            <div class="card">
+                <div class="card_img_pl">
+                    <img src="image/empty-promise-of-AI.png" alt="photo" class="card_img">
+                    <div class="produc_cost">19$/mo</div>
+                </div>
+                <div class="card-body">
+                    <div class="title_area"><p class="card_title">Tittle</p><h5 class="count_save"><i class="fa-solid fa-bookmark fa-2xl" style="color: black;"></i>50</h5></div>
+                    <a href="comment.html" class="a_star_area_card">
+                        <div class="star_rating">
+                            <span class="fa fa-star user_st_op cardstar checked"></span>
+                            <span class="fa fa-star user_st_op cardstar checked"></span>
+                            <span class="fa fa-star user_st_op cardstar checked"></span>
+                            <span class="fa fa-star user_st_op cardstar checked"></span>
+                            <span class="fa fa-star user_st_op cardstar checked"></span>
+                        </div>
+                    </a>
+                    <p class="card_about">
+                        Creazte ve fiyoi mmesk mehdopa
+                        nnneisifnnfu nna ejw  sefsa ewwewe yryew
+                    </p>
+                    <div class="card_btns">
+                        <button class="card-link"><img src="https://img.icons8.com/fluency/48/link.png" class="img-link" alt="link"/><p class="p_ls">link</p></button>
+                        <button class="card-save"><i class="fa-solid fa-bookmark fa-xl" style="color: black;"></i><p class="p_ls">save</p></button>
+                    </div>
+                </div>
+            </div>
         </section>
         <button class="feedback" id="feedback">
             <a  id="feedback_open_i"><i class="fa-solid fa-message fa-2xl"></i></a>

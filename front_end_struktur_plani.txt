@@ -6,8 +6,6 @@ BUTUN PROJECTE SAMIL OLUNAN TETBIQLER ---
 
 IASTIFADE OLUNACAQ TOOLS VE SAYTLAR !! ---
 
-https://animate.style/
-
 https://uiverse.io/
 
 
@@ -17,31 +15,20 @@ INDEX UCUN NEZERDE TUTULAN PLAN
 
 VIEW !! ---
 
-header hissesi https://demo.themovation.com/stratus/home-saas-3/#0 buna baxilaraq qrulacaq
 
-header altindaki big text ucun https://uiverse.io/G4b413l/hot-crab-48 istifade edeceyik 
-
-inputlar ucun https://uiverse.io/Mike11jr/warm-zebra-80  veya https://uiverse.io/mobinkakei/cold-bat-89
-
-close buttom lar ucun https://uiverse.io/vinodjangid07/soft-octopus-29
 
 ELAVE OLUNACAQ FUNKSIYALAR !! ---
 
-fixed header hansiki asaqa scroll edende razmeri deyisecek 
+
 
 
 
 ABOUT UCUN NEZERDE TUTULAN PLAN 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-style.css 330 strok
+style.css 478 strok
 
 VIEW !! ---
 
-https://demo.themovation.com/stratus/home-saas-3/#0 burdan image ve yaninda info goturulecek 
-
-https://lumi.uicore.co/ai-software/# card info goturulecek 
-
-https://writer.com/  text area info goturulecek 
 
 ELAVE OLUNACAQ FUNKSIYALAR !! ---

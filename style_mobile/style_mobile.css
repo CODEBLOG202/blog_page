@@ -1,2 +1,1140 @@
-/* @media screen and (max-width: 900px) {
-} */
+@media screen and (min-width: 100px) and (max-width:374px) { 
+    main{padding-top: 80px;}
+    .nav{display: none;}
+    .signin_a{display: none;}
+    .navbar-brand {
+        width: 46%;
+        margin-left: 5vh;
+    }
+    .container-fluid{height: 80px;}
+    .logo_title{font-size: 19px;}
+    .night_mood{
+        margin-left: 12%;
+        margin-right:2.5%;
+    }
+    .night_mood_img {
+        width: 30px;
+        height: 30px;
+    }
+    .res_button{display:inline-block;}
+    .logo_img_1{width:46%;}
+    .close_nav_btn{margin-left: 28%;}
+    .h1_bigtext{
+        margin-left: 17%;
+        font-size: 33px;
+    }
+    .title_bigtext{font-size: 14px;}
+    .btn_bigtext2 {
+        width: 166px;
+        height: 47px;
+        font-size: 14px;
+        margin-left: 23%;
+        margin-bottom: 6%;
+    }
+    .search_input {
+        width: 198px;
+        height: 50px;
+        padding-left: 21%;
+        background-position-x: 10px;
+        background-size: 23px;
+        font-size: 1.3em;
+        padding-right: 6%;
+    }
+    .filter_btn {
+        width: 75px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 3%;
+    }
+    .icons_size {
+        height: 18px;
+        width: 18px;
+    }
+    .card{
+        width: 89.3%;
+        margin-left: 7%;
+        margin-top: 13%;
+    }
+    .count_save {width: 24%;}
+    .feedback{top: 74%;}
+    .feedback, .up{
+        width: 55px;
+        height: 55px;
+        left: 79%;
+    }
+    .feedback_p{font-size: small;}
+    .btnfeed{font-size: small;}
+    .p_fl_header {font-size: 16px;}
+    .fl_button {font-size: 22px;}
+    .p_fl_opt{font-size: 16px;}
+    .option_ol {font-size: 16px;}
+    .option_input {
+        height: 18px;
+        width: 18px;
+    }
+    .option_area{padding-bottom: 0%;}
+    .filter_apply {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .filter_box {
+        height: 70vh;
+        width: 80%;
+    }
+    .feedback_card {
+        width: 65%;
+        left: 13%;
+        top: 23%;
+    }
+    .main_text_footer{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .footer_ul_div {width: 100%;}
+    .link_area_footer {
+        width: 74%;
+        margin-left: 13%;
+        justify-content: center;
+    }
+    .link_section {
+        font-size: 2.2em;
+        text-align: center;
+    }
+    .footer_li { text-align: center;}
+    .fdb_h1_mesage{font-size: 20px;}
+    .fdb_btn, .fdb_sub {
+        font-size: 14px;
+    }
+    #feedback_card2{top: 27%;}
+    /*signin up page */
+    .form {
+        min-height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        top: 20%;
+        padding: 1em;
+    }
+    .form--input{
+        height: 45px;
+        margin-bottom: 0.7em;
+        font-size: small;
+    }
+    .signup{font-size: 1.3em;}
+    .form--submit{font-size: small;}
+    /*About page*/
+    .about_bigtext{
+        text-align: center;
+        font-size: x-large;
+        margin: 10% 0%;
+    }
+    .about_title{
+        width: 80%;
+        font-size: large;
+    }
+    .hr_about {width: 80%;}
+    .title_one{
+        width: 80%;
+        font-size: large;
+    }
+    .title_section {margin-bottom: 15%;}
+    .about_cards_area{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_card {width: 85%;}
+    .card_title_h3{font-size: large;}
+}
+@media screen and (min-width: 375px) and (max-width:424px) { 
+    main{padding-top: 80px;}
+    .nav{display: none;}
+    .signin_a{display: none;}
+    .navbar-brand {
+        width: 46%;
+        margin-left: 5vh;
+    }
+    .container-fluid{height: 80px;}
+    .logo_title{font-size: 19px;}
+    .night_mood{
+        margin-left: 21%;
+        margin-right:2.5%;
+    }
+    .night_mood_img {
+        width: 30px;
+        height: 30px;
+    }
+    .res_button{display:inline-block;}
+    .h1_bigtext{
+        margin-left: 22%;
+        font-size: 33px;
+    }
+    .title_bigtext{font-size: 14px;}
+    .btn_bigtext2 {
+        width: 166px;
+        height: 47px;
+        font-size: 14px;
+        margin-left: 27%;
+        margin-bottom: 6%;
+    }
+    .search_input {
+        width: 264px;
+        height: 50px;
+        padding-left: 15%;
+        background-position-x: 10px;
+        background-size: 23px;
+        font-size: 1.3em;
+        padding-right: 6%;
+    }
+    .filter_btn {
+        width: 75px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 3%;
+    }
+    .icons_size {
+        height: 18px;
+        width: 18px;
+    }
+    .card{
+        width: 89.3%;
+        margin-left: 7%;
+        margin-top: 13%;
+    }
+    .count_save {width: 20%;}
+    .feedback{top: 74%;}
+    .feedback, .up{
+        width: 55px;
+        height: 55px;
+        left: 81%;
+    }
+    .feedback_p{font-size: small;}
+    .btnfeed{font-size: small;}
+    .p_fl_header {font-size: 16px;}
+    .fl_button {font-size: 22px;}
+    .p_fl_opt{font-size: 16px;}
+    .option_ol {font-size: 16px;}
+    .option_input {
+        height: 18px;
+        width: 18px;
+    }
+    .option_area{padding-bottom: 0%;}
+    .filter_apply {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .filter_box {
+        height: 70vh;
+        width: 80%;
+    }
+    .feedback_card {
+        width: 65%;
+        left: 13%;
+        top: 29%;
+    }
+    .main_text_footer{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .footer_ul_div {width: 100%;}
+    .link_area_footer {
+        width: 74%;
+        margin-left: 13%;
+        justify-content: center;
+    }
+    .link_section {
+        font-size: 2.2em;
+        text-align: center;
+    }
+    .footer_li { text-align: center;}
+    .fdb_h1_mesage{font-size: 20px;}
+    .fdb_btn, .fdb_sub {
+        font-size: 14px;
+    }
+    #feedback_card2{top: 28%;}
+    /* signin up page*/
+    .form {
+        min-height: 50vh;
+        width: 70%;
+        margin-left: 15%;
+        top: 20%;
+        padding: 1em;
+    }
+    .form--input{
+        height: 45px;
+        margin-bottom: 0.7em;
+        font-size: small;
+    }
+    .signup{font-size: 1.3em;}
+    .form--submit{font-size: small;}
+    /*About page*/
+    .about_bigtext{
+        text-align: center;
+        font-size: x-large;
+        margin: 10% 0%;
+    }
+    .about_title{
+        width: 80%;
+        font-size: large;
+    }
+    .hr_about {width: 80%;}
+    .title_one{
+        width: 80%;
+        font-size: large;
+    }
+    .title_section {margin-bottom: 15%;}
+    .about_cards_area{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_card {width: 85%;}
+    .card_title_h3{font-size: large;}
+    .info_circle {
+        width: 55%;
+        height: 50%;
+    }
+}
+@media screen and (min-width: 425px) and (max-width:767px) { 
+    main{padding-top: 80px;}
+    .nav{display: none;}
+    .signin_a{display: none;}
+    .navbar-brand {
+        width: 46%;
+        margin-left: 5vh;
+    }
+    .container-fluid{height: 80px;}
+    .logo_title{font-size: 19px;}
+    .night_mood{
+        margin-left: 21%;
+        margin-right:2.5%;
+    }
+    .night_mood_img {
+        width: 30px;
+        height: 30px;
+    }
+    .res_button{display:inline-block;}
+    .h1_bigtext{
+        margin-left: 25%;
+        font-size: 33px;
+    }
+    .title_bigtext{font-size: 14px;}
+    .btn_bigtext2 {
+        width: 166px;
+        height: 47px;
+        font-size: 14px;
+        margin-left: 31%;
+        margin-bottom: 6%;
+    }
+    .search_input {
+        width: 272px;
+        height: 50px;
+        padding-left: 15%;
+        background-position-x: 10px;
+        background-size: 27px;
+        font-size: 1.3em;
+    }
+    .filter_btn {
+        width: 90px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 8%;
+    }
+    .icons_size {
+        height: 18px;
+        width: 18px;
+    }
+    .card{
+        width: 89.3%;
+        margin-left: 7%;
+        margin-top: 13%;
+    }
+    .feedback{top: 74%;}
+    .feedback, .up{
+        width: 55px;
+        height: 55px;
+        left: 83%;
+    }
+    .p_fl_header {font-size: 16px;}
+    .fl_button {font-size: 22px;}
+
+    .p_fl_opt{font-size: 16px;}
+    .option_ol {font-size: 16px;}
+    .option_input {
+        height: 18px;
+        width: 18px;
+    }
+    .option_area{padding-bottom: 0%;}
+    .filter_apply {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .filter_box {
+        height: 70vh;
+        width: 80%;
+    }
+    .feedback_card {
+        width: 65%;
+        left: 16%;
+        top: 27%;
+    }
+    .feedback_p{font-size: small;}
+    .btnfeed{font-size: small;}
+    .main_text_footer{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .footer_ul_div {width: 100%;}
+    .link_area_footer {
+        width: 74%;
+        margin-left: 13%;
+        justify-content: center;
+    }
+    .link_section {
+        font-size: 2.2em;
+        text-align: center;
+    }
+    .footer_li { text-align: center;}
+    .fdb_h1_mesage{font-size: 20px;}
+    .fdb_btn, .fdb_sub {
+        font-size: 14px;
+    }
+    #feedback_card2{top: 28%;}
+    /*signin up page */
+    .form {
+        min-height: 60vh;
+        width: 70%;
+        margin-left: 15%;
+        top: 15%;
+        padding: 1em;
+    }
+    .form--input{
+        height: 50px;
+        margin-bottom: 1em;
+        font-size: small;
+    }
+    .signup{font-size: 1.3em;}
+    .form--submit{font-size: small;}
+    /*About page*/
+    .about_bigtext{
+        text-align: center;
+        font-size: x-large;
+        margin: 10% 0%;
+    }
+    .about_title{
+        width: 80%;
+        font-size: large;
+    }
+    .hr_about {width: 80%;}
+    .title_one{
+        width: 80%;
+        font-size: large;
+    }
+    .title_section {margin-bottom: 15%;}
+    .about_cards_area{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_card {width: 85%;}
+    .card_title_h3{font-size: large;}
+    .info_circle {
+        width: 45%;
+        height: 50%;
+    }
+}
+@media (min-width:768px){.res_header{display: none;}}
+@media screen and (min-width: 768px) and (max-width:991px) { 
+    .navbar-brand{
+        margin-left: 9vh;
+        width: 20%;
+    }
+    .logo_title {
+        font-size: 17px;
+        margin-top: 26%;
+    }
+    .logo_img_1 {width: 48%;}
+    .nav{
+        margin-left: 2%;
+        width: 47%;
+    }
+    .nav-link{
+        font-size: 2px;
+        padding: 0%;
+    }
+    .night_mood_img {
+        width: 25px;
+        height: 25px;
+    }
+    .night_mood{margin-left: 2.8%;}
+    .sing_upButton{
+        width: 74px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .h1_bigtext{
+        margin-left: 30%;
+        font-size: 53px;
+    }
+    .title_bigtext{font-size: 22px;}
+    .btn_bigtext2 {
+        width: 236px;
+        height: 56px;
+        font-size: 20px;
+        margin-left: 36%;
+    }
+    .search_input {
+        width: 484px;
+        height: 62px;
+        padding-left: 13%;
+        background-position-x: 16px;
+        font-size: 1.5em;
+    }
+    .filter_btn {
+        width: 145px;
+        height: 62px;
+        font-size: 24px;
+        margin-left: 8%;
+    }
+    .icons_size {
+        height: 25px;
+        width: 25px;
+    }
+    .card{
+        width: 45.3%;
+        margin-left: 3%;
+    }
+    .feedback{top: 74%;}
+    .feedback, .up{
+        width: 55px;
+        height: 55px;
+    }
+    .p_fl_header {font-size: 16px;}
+    .fl_button {font-size: 22px;}
+    .p_fl_opt{font-size: 16px;}
+    .option_ol {font-size: 16px;}
+    .option_input {
+        height: 18px;
+        width: 18px;
+    }
+    .option_area{padding-bottom: 0%;}
+    .filter_apply {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .filter_box {height: 70vh;}
+    .feedback_card {
+        width: 39%;
+        left: 50%;
+        top: 17%;
+    }
+    #feedback_card2{top: 22%;}
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 50%;
+        margin-left: 25%;
+        top: 15%;
+        padding: 1em;
+    }
+    .form--input{
+        height: 50px;
+        margin-bottom: 1.3em;
+        font-size: medium;
+    }
+    .signup{font-size: 1.6em;}
+    .form--submit{font-size: medium;}
+    /*About page*/
+    .about_title{
+        width: 50%;
+        font-size: larger;
+    }
+    .hr_about {width: 50%;}
+    .title_one{
+        width: 50%;
+        font-size: large;
+    }
+    .info_circle {
+        width: 60%;
+        height: 40%;
+    }
+    .card_title_h3{font-size: large;}
+}
+@media screen and (min-width: 992px) and (max-width:1199px) { 
+    .navbar-brand{margin-left: 14vh;}
+    .logo_title {
+        font-size: 18px;
+        margin-top: 23%;
+    }
+    .logo_img_1 {width: 48%;}
+    .nav{
+        margin-left: 0%;
+        width: 45%;
+    }
+    .nav-link{font-size: 16px;}
+    .h1_bigtext{
+        margin-left: 32%;
+        font-size: 53px;
+    }
+    .title_bigtext{font-size: 22px;}
+    .btn_bigtext2 {
+        width: 236px;
+        height: 56px;
+        font-size: 20px;
+        margin-left: 36%;
+    }
+    .search_input {
+        width: 623px;
+        height: 62px;
+        padding-left: 13%;
+        font-size: 1.5em;
+    }
+    .filter_btn {
+        width: 145px;
+        height: 62px;
+        font-size: 24px;
+    }
+    .icons_size {
+        height: 25px;
+        width: 25px;
+    }
+    .card{
+        width: 28.3%;
+        margin-left: 4%;
+    }
+    .p_fl_header {font-size: 20px;}
+    .fl_button {font-size: 25px;}
+    .p_fl_opt{font-size: 20px;}
+    .option_ol {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .option_area{padding-bottom: 0;}
+    .option_input {
+        height: 24px;
+        width: 24px;
+    }
+    .filter_apply {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .filter_box {height: 70vh;}
+    .feedback_card {
+        width: 33%;
+        left: 57%;
+        top: 33%;
+    }
+    .feedback{top: 76%;}
+    #feedback_card2{top: 30%;}
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 40%;
+        margin-left: 30%;
+        top: 15%;
+        padding: 1.5em;
+    }
+    .form--input{
+        height: 50px;
+        margin-bottom: 1.3em;
+        font-size: medium;
+    }
+    .signup{font-size: 1.6em;}
+    .form--submit{font-size: medium;}
+     /*About page*/
+    .about_title{width: 50%;} 
+    .hr_about{width: 50%;}
+    .title_one{width: 50%;}
+    .info_circle {height: 40%;}
+}
+@media screen and (min-width: 1200px) and (max-width:1399px)  { 
+    .h1_bigtext{margin-left: 33%;} 
+    .search_input {
+        width: 800px;
+        font-size: 1.5em;
+    }
+    .btn_bigtext2 {margin-left: 39%;}
+    .p_fl_header {font-size: 20px;}
+    .card{
+        width: 28.3%;
+        margin-left: 4%;
+    }
+    .fl_button {font-size: 25px;}
+    .p_fl_opt{font-size: 20px;}
+    .option_ol {font-size: 20px;}
+    .option_input {
+        height: 24px;
+        width: 24px;
+    }
+    .filter_apply {
+        padding: 7px 30px;
+        font-size: 18px;
+    }
+    .filter_box {height: 70vh;}
+    .textarea_feedback{font-size: 19px;}
+    .feedback {top: 75%;}
+    .feedback_card{top: 32%;}
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 40%;
+        margin-left: 30%;
+        top: 15%;
+        padding: 1.7em;
+    }
+    .form--input{
+        height: 60px;
+        margin-bottom: 1.3em;
+        font-size: large;
+    }
+    .signup{font-size: 2em;}
+    .form--submit{font-size: large;}
+    /*About page*/
+    .about_title{width: 50%;} 
+    .hr_about{width: 50%;}
+    .title_one{width: 50%;}
+    .info_circle {height: 45%;}
+}
+@media (min-width: 1400px) {
+    .filter_box {height: 72vh;}
+    .filter_btn{margin-left: 12%;}
+    .card_about {font-weight: 500;}
+    .p_ls{font-size: 20px;}
+    .text_company{font-size: 1.8rem;}
+    .link_section{font-size: 1.5rem;}
+    .footer_li {font-size: 1.4em;}
+    .feedback , .up {
+        width: 70px;
+        height: 70px;
+        top: 76%;
+    }
+    .filter_apply{font-size: 24px;}
+    .up {top:85%}
+    .feedback_card{top:37%}
+    .feedback_p{font-size: 1.5em;}
+    .footer_ul_div{width: 28%;}
+    #feedback_card2{top: 34%;}
+    .textarea_feedback{font-size: 21px;}
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 40%;
+        margin-left: 30%;
+        top: 15%;
+        padding: 2em;
+    }
+    .form--input{
+        height: 65px;
+        margin-bottom: 1.3em;
+        font-size: x-large;
+    }
+    .signup{font-size: 2em;}
+    .form--submit{font-size: large;}
+    /*About page*/
+    .about_title{width: 35%;} 
+    .hr_about{width: 35%;}
+    .title_one{width: 35%;}
+    .info_circle {height: 45%;}
+}
+@media (min-width: 1800px) {    
+    main{padding-top: 125px;}
+    .container-fluid{height: 125px;}
+    .nav-link{font-size: 22px;}
+    .sing_upButton{
+        width: 153px;
+        height: 46px;
+        font-size: 23px;
+    }
+    .search_input {width: 845px;}
+    .btn_bigtext2 {margin-left: 42%;}    
+    .h1_bigtext {margin-left: 39%;}
+    .filter_btn{margin-left: 22%;}
+    .p_fl_header {font-size: 34px;}
+    .fl_button {font-size: 50px;}
+    .p_fl_opt{font-size: 37px;}
+    .option_ol {font-size: 30px;}
+    .option_input {
+        height: 31px;
+        width: 31px;
+    }
+    .filter_apply {font-size: 37px;}
+    .produc_cost{font-size: 1.3em;}
+    .card{min-height: 720px;}
+    .card_title{font-size: 34px;}
+    .card_about { font-size: 24px;}
+    .count_save{width: 13%;}
+    .card-link, .card-save {height: 60px;}
+    .p_ls{font-size: 23px;}
+    .feedback_card{top:40%}
+    .up {top:83%}
+    .feedback_p{font-size: 1.7em;}
+    .btnfeed{font-size:1.6em;}
+    .bord {
+        height: 60px;
+        width: 60px;
+    }
+    #feedback_card2{top: 32%;}
+    /*burdan asaqisi  singin.html page ucundur*/
+    .form{min-height: 50vh;}
+    .signup{font-size: 3em;}
+    .form--input{
+        height: 110px;
+        font-size: 2.5em;
+    }
+    .form--submit{font-size: 2.5em;}
+    .textarea_feedback {
+        font-size: 26px;
+    }
+    .fdb_btn, .fdb_sub{
+        font-size: 25px;
+    }
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 40%;
+        margin-left: 30%;
+        top: 15%;
+        padding: 3em;
+    }
+    .form--input{
+        height: 85px;
+        margin-bottom: 1.3em;
+        font-size: x-large;
+    }
+    .signup{font-size: 2.5em;}
+    .form--submit{font-size: x-large;}
+
+}
+@media (min-width: 2000px) { 
+    .logo_title{
+        font-size: 32px;
+        margin-top: 12%;
+    }
+    main{padding-top: 125px;}
+    .container-fluid{height: 125px;}
+    .nav-link{font-size: 26px;}
+    .h1_bigtext {margin-left: 39%;}
+    .filter_btn{margin-left: 23%;}
+    .search_input {width: 891px;}
+    .btn_bigtext2{margin-left: 42%;}
+    .card{min-height: 720px;}
+    .count_save{
+        width: 12%;
+        font-size: 22px;
+    }
+    .card_title {font-size: 45px;}
+    .p_fl_header {font-size: 34px;}
+    .fl_button {font-size: 50px;}
+    .p_fl_opt{font-size: 37px;}
+    .option_ol {font-size: 38px;}
+    .option_input {
+        height: 31px;
+        width: 31px;
+    }
+    .filter_apply {font-size: 37px;}
+    .feedback_card{top:43%}
+    .card_about{font-size: 27px;}
+    .card-link, .card-save {height: 60px;}
+    .p_ls{font-size: 25px;}
+    .up {top:83%}
+    .feedback_p{font-size: 1.7em;}
+    .btnfeed{font-size:1.6em;}
+    .sing_upButton {
+        height: 55px;
+        width: 142px;
+        font-size: 28px;
+    }
+    .night_mood_img {
+        width: 42px;
+        height: 42px;
+    }
+    .produc_cost{font-size: 1.3em;}
+    .text_company{font-size: 2.2rem;}
+    .link_section{font-size: 2rem;}
+    .footer_li {font-size: 1.9em;}
+    .ft_title{font-size: 1.9em;}
+    .bord {
+        height: 70px;
+        width: 70px;
+    }
+    /*burdan asaqisi  singin.html page ucundur*/
+    .form{min-height: 50vh;}
+    .signup{font-size: 3em;}
+    .form--input{
+        height: 110px;
+        font-size: 2.5em;
+    }
+    .form--submit{font-size: 2.5em;}
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 40%;
+        margin-left: 30%;
+        top: 15%;
+        padding: 3em;
+    }
+    .form--input{
+        height: 85px;
+        margin-bottom: 1.6em;
+        font-size: xx-large;
+    }
+    .signup{font-size: 2.5em;}
+    .form--submit{font-size: xx-large;}
+    /*About page*/
+    .about_title{font-size: xx-large;} 
+    .hr_about{width: 35%;}
+    .title_one{width: 35%;}
+    .info_circle {height: 45%;}
+    .card_title_h3{font-size: xx-large;}
+}
+@media (min-width: 2400px) { 
+    .logo_title{font-size: 32px;}
+    main{padding-top: 150px ;}
+    .container-fluid{height: 150px;}
+    .nav-link{font-size: 32px;}
+    .h1_bigtext {
+        margin-left: 36%;
+        font-size: 7em;
+    }
+    .btn_bigtext2{margin-left: 42%;}
+    .title_bigtext{font-size: 40px;}
+    .search_input {
+        width: 1147px;
+        height: 96px;
+        font-size: 3em;
+    }
+    .btn_bigtext2 {
+        width: 366px;
+        height: 78px;
+        font-size: 37px;
+    }
+    .filter_btn{
+        margin-left: 21%;
+        width: 220px;
+        height: 96px;
+        font-size: 33px;
+    }
+    .produc_cost{ font-size: 1.6em;}
+    .card_title {font-size: 50px;}
+    .card{min-height: 800px;}
+    .count_save{
+        width: 12%;
+        font-size: 27px;
+    }
+    .card_about{font-size: 30px;}
+    .card-link, .card-save {height: 79px;}
+    .p_ls{font-size: 34px;}
+    .img-link { height: 46px;}
+    .p_fl_header {font-size: 42px;}
+    .fl_button {font-size: 50px;}
+    .p_fl_opt{font-size: 42px;}
+    .option_ol {font-size: 45px;}
+    .filter_apply {font-size: 45px;}
+    .option_input {
+        height: 35px;
+        width: 35px;
+    }
+    .feedback_p{font-size: 1.9em;}
+    .btnfeed{font-size:2em;}
+    .feedback_card{top:43%;}
+    .text_company{font-size: 2.2rem;}
+    .link_section{font-size: 2rem;}
+    .footer_li {font-size: 1.9em;}
+    .ft_title{font-size: 1.9em;}
+    .sing_upButton {
+        height: 62px;
+        width: 152px;
+        font-size: 32px;
+    }
+    .night_mood_img {
+        width: 48px;
+        height: 48px;
+    }
+    .bord {
+        height: 70px;
+        width: 70px;
+    }
+    .feedback , .up {
+        width: 80px;
+        height: 80px;
+        top: 75%;
+    }
+    .up {top:82%}
+    /*burdan asaqisi  singin.html page ucundur*/
+    .form{min-height: 50vh;}
+    .signup{font-size: 3em;}
+    .form--input{
+        height: 110px;
+        font-size: 2.5em;
+    }
+    .form--submit{font-size: 2.5em;}
+    .textarea_feedback {font-size: 32px;}
+    .fdb_btn, .fdb_sub{font-size: 33px;}
+    /*signin up page */
+    .form {
+        min-height: 65vh;
+        width: 40%;
+        margin-left: 30%;
+        top: 15%;
+        padding: 4em;
+    }
+    .form--input{
+        height: 100px;
+        margin-bottom: 2em;
+        font-size: xx-large;
+    }
+    .signup{font-size: 3em;}
+    .form--submit{font-size: xx-large;}
+    /*About page*/
+    .about_title{font-size: xx-large;} 
+    .hr_about{width: 35%;}
+    .title_one{width: 35%;}
+    .info_circle {height: 45%;}
+    .card_title_h3{font-size: xx-large;}
+}
+@media screen and (min-height: 450px) and (max-height: 549px) and (max-width: 350px) { 
+    .filter_btn {margin-left: 7%;}
+    .filter_box {height: 69vh;}
+    .p_fl_header {font-size: 14px;}
+    .p_fl_opt {font-size: 14px;}
+    .option_ol {font-size: 14px;}
+    .filter_apply{font-size: 14px;}
+    .feedback, .up {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (min-height: 550px) and (max-height: 649px) and (max-width: 374px){ 
+    .filter_btn {margin-left: 9%;}
+    .filter_box {height: 58vh;}
+    .p_fl_header {font-size: 14px;}
+    .p_fl_opt {font-size: 14px;}
+    .option_ol {font-size: 14px;}
+    .filter_apply{font-size: 14px;}
+    .feedback, .up {
+        width: 50px;
+        height: 50px;
+    }
+    .feedback_card{top: 36%;}
+    .feedback {top: 75%;}
+    .h1_bigtext{margin-left: 22%;}
+    .btn_bigtext2{ margin-left: 28%;}
+    #feedback_card2 {
+        top: 34%;
+    }
+    /*sigin up page */
+    .form--submit{margin-top: 7%;}
+}
+@media screen and (min-height: 650px) and (max-height: 749px)  and (max-width: 420px) { 
+    .filter_box {height: 62vh;}
+    .feedback {top: 76%;}
+    .feedback_card{top: 39%;}
+    .h1_bigtext{margin-left: 22%;}
+    .btn_bigtext2{ margin-left: 28%;}
+    .filter_btn {margin-left: 7%;}
+    #feedback_card2 {
+        top: 34%;
+    }
+    /*sigin up page */
+    .form{min-height: 42vh;}
+    .form--submit{margin-top: 10%;}
+}
+@media screen and (min-height: 750px) and (max-height: 849px) and (max-width: 420px) { 
+    .night_mood{margin-left: 17%;}
+    .close_nav_btn {margin-left: 28%;}
+    .filter_box {height: 51vh;}
+    .feedback_card{top: 45%;}
+    .feedback {top: 77%;}
+    .filter_btn {margin-left: 7%;}
+    #feedback_card2 {
+        top: 37%;
+    }
+    /*sigin up page */
+    .form{min-height: 38vh;}
+    .form--submit{margin-top: 10%;}
+}
+@media screen and (min-height: 850px) and (max-height: 949px) and (max-width: 450px){ 
+    .night_mood{margin-left: 17%;}
+    .close_nav_btn {margin-left: 28%;}
+    .filter_btn{margin-left: 6%;}
+    .filter_box {height: 45vh;}
+    .feedback_card{top: 49%;}
+    .feedback {top: 78%;}
+    #feedback_card2 {
+        top: 40%;
+    }
+     /*sigin up page */
+    .form{min-height: 38vh;}
+    .form--submit{margin-top: 10%;}
+    /*About page*/
+    .info_circle {
+        width: 55%;
+        height: 50%;
+    }
+    .about_card{height: 40vh;}
+}
+@media screen and (min-height: 950px) and (max-height: 1049px) and (max-width: 800px){ 
+    .navbar-brand {margin-left: 5vh;}
+    .filter_box { height: 44vh;}
+    .option_ol {font-size: 20px;}
+    .feedback {top: 78%;}
+    .feedback_card{top: 48%;}
+    #feedback_card2 {
+        top: 40%;
+    }
+    /*sing up page */
+    .form{min-height: 50vh;}
+    .form--input {
+        height: 70px;
+        margin-bottom: 1.3em;
+        font-size: x-large;
+    }
+    .form--submit {font-size: x-large;}
+    /*About page*/
+    .info_circle {
+        width: 70%;
+        height: 25%;
+    }
+}
+@media screen and (min-height: 1350px) and (max-height: 1450px) and (max-width: 1100px){ 
+    .navbar-brand {margin-left: 5vh;}
+    .filter_box { height: 41vh;}
+    /* .option_ol {font-size: 20px;} */
+    .feedback {top: 80%;}
+    .feedback_card{top: 56%;}
+    #feedback_card2 {
+        top: 42%;
+    }
+    /*sing up page */
+    .signup{font-size: 2.5em;}
+    .form{min-height: 45vh;}
+    .form--input {
+        height: 70px;
+        margin-bottom: 1.3em;
+        font-size: xx-large;
+    }
+    .form--submit {font-size: xx-large;}
+    /*About page*/
+    .info_circle {
+        width: 70%;
+        height: 25%;
+    }
+}
+@media screen and (height: 768px) and (width: 1366px){ 
+    .feedback{top: 76%;}
+    .feedback_card{top: 32%;}
+    #feedback_card2 {
+        top: 29%;
+    }
+    /*About page*/
+    .info_circle{width: 50%;}
+}
+/*commentpage res*/
+@media (min-width: 0) {
+    .g-mr-15 { margin-right: 1.07143rem !important;}
+}
+@media (min-width: 0){
+    .g-mt-3 {margin-top: 0.21429rem !important;}
+}
+@media (min-width: 0){
+    .g-pa-30 {padding: 2.14286rem !important;}
+}
+/* @media screen and (min-height: 1050px) and (max-height: 1149px) and (max-width: 850px){}
+@media screen and (min-height: 1150px) and (max-height: 1249px) {}
+@media screen and (min-height: 1250px) and (max-height: 1349px) {} */
