@@ -92,8 +92,10 @@ a{
     color: var(--cl5) !important;
 }
 .nav-link:hover{color: var(--cl1) !important;}
-.dropdown-menu{box-shadow: 0px 0px 10px silver;} 
-.dropdown-item{text-align: center;} 
+.dropdown-menu{
+    z-index: 9;
+    box-shadow: 0px 0px 3px var(--cl4);
+}
 .icons_size{ 
     height: 32px;
     width: 32px;
@@ -136,6 +138,7 @@ a{
 }
 .main_search{
     display: inline-flex;
+    justify-content: center;
 }
 .h1_bigtext{        /* big text ozu (h1)*/
     width: fit-content;
@@ -174,7 +177,6 @@ a{
     display: inline-block;
     border: none;
     padding: 0%;
-    margin-left: 10%;
     background-color: #384CB4;
     border-radius: 48px 0px 0px 48px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
@@ -303,15 +305,17 @@ a{
 }
 .filter_apply:hover{ background-color: #3f5fff;}
 .cards_place{  /*card hamsinin qoyulduqu yer */
-    width: 100%;
+    width: 90%;
     height: fit-content;
+    margin: 0% 5% 0% 5%;
+    padding-bottom: 7%;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 10%;
+    justify-content: space-around;
 }
 .card {   /* card ozu (div)*/
     width: 29.3%;
-    min-height: 622px;
+    min-height: 570px;
     text-align: center;
     cursor: pointer;
     transition: all 0.5s;
@@ -319,12 +323,10 @@ a{
     justify-content: center;
     user-select: none;
     margin-top: 3%;
-    margin-left:3%;
     font-weight: bolder;
     color: var(--cl3);
     border-radius: 18px;
-    border: 2px solid #8FB5CB;
-    background-color: var(--cl6);
+    border: 2px solid #8FB5CB;/* background-color: var(--cl6); */
 }
 .card:hover {
     transform: scale(1.021);
@@ -382,7 +384,7 @@ a{
 }
 .cardstar{ font-size: x-large !important;}
 .count_save{
-    width: 17%;
+    width: 19%;
     display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -401,8 +403,7 @@ a{
     border: none;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    background-color: var(--cl8);
+    justify-content: center;/* background-color: var(--cl8); */
     border-radius: 18px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
@@ -684,11 +685,6 @@ a{
 }
 .res_li{margin: 4% 0% 4% 0%;}
 /*about hissesi burdan basliyir*/
-.main_about{
-    background-image: url('../image/layered-waves-haikei1.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .about_head , .title_section{
     width: 100%;
     display: flex;
@@ -730,21 +726,22 @@ a{
     color: var(--cl5);
 }
 .about_cards_area{
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin: 0% 5% 0% 5%;
     padding-bottom: 5%;
     justify-content: center;
 }
 .about_card{
-    width: 25%;
-    height: 50vh;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .info_circle{
-    width: 60%;
-    height: 55%;
+    width: 50%;
+    height: 50%;
     padding: 10%;
     display: flex;
     background-color: whitesmoke;
@@ -753,8 +750,8 @@ a{
     align-items: center;
 }
 .info_circle_img{
-    height: 75%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
 }
 .about_card_title{
     width: 60%;
@@ -779,6 +776,7 @@ a{
     margin: 0%;
     display: inline-block;
     margin-right: 3%;
+    color: var(--cl5);
 }
 .visit_btn{
     border: none;
@@ -809,6 +807,10 @@ a{
     display: flex;
     align-items: center;
 }
+.bio_header_p{color: var(--cl5);}
+.bio_p { color: var(--cl5);}
+.categories_b{color: var(--cl5);}
+.categorie_p{color: var(--cl5);}
 .image_a_comment{
     min-height: 30vh;
     width: 46%;
@@ -843,6 +845,7 @@ a{
 .bio_h3_1{
     width: 100%;
     margin-bottom: 2%;
+    color: var(--cl5);
 }
 .ul_use_c1{margin: 0% !important;}
 .star_rating_place{
@@ -944,13 +947,17 @@ a{
     display: inline-block;
     margin-left: 5%;
 }
-.use_cases{margin: 0%;}
+.use_cases{
+    margin: 0%;
+    color: var(--cl5);
+}
 .ul_use_cases{
     margin: 0%;
     margin-top: 20px;
 }
 .li_use_cases{
     font-size:x-large;
+    color: var(--cl5);
 }
 .comment_mainarea{
     width: 100%;
@@ -963,7 +970,10 @@ a{
 .row{padding-bottom: 5vh;}
 .g-height-50 {height: 50px;}
 .g-width-50 {width: 50px !important;}
-.g-bg-secondary {background-color: #fafafa !important;}
+.g-bg-secondary {
+    background-color: whitesmoke !important;
+    border-radius: 20px;
+}
 .u-shadow-v18 {
     box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.15);
 }
@@ -979,6 +989,7 @@ a{
 .modal-content{
     width: 50vh;
     min-height: 50vh;
+    margin: auto;
 }
 .textarea_form{
     display: flex;
@@ -986,8 +997,9 @@ a{
 }
 .text_area_modal{
     width: 95%;
-    padding: 5% 5%;
     height: 80%;
+    padding: 5% 5%;
+    border: 1px solid black;
 }
 /*news page */
 .news_filter{
@@ -1000,11 +1012,13 @@ a{
     height: fit-content;
     display: block;
     font-size: 45px;
+    color: var(--cl5);
 }
 .news_statistica{
     font-size: larger;
     margin-bottom: 5%;
     width: 100%;
+    color: var(--cl5);
 }
 .filter_area_news{
     width: 100%;
@@ -1012,13 +1026,14 @@ a{
 }
 .btn-secondary{
     background-color: transparent;
-    color: #000000;
+    color: var(--cl5);
     border-radius: 11px;
     padding: 15px 25px;
 }
+.btnclosecomment{color: black;}
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
     background-color: transparent;
-    color: #000000;
+    color: var(--cl5);
 }
 .dropdown-item {
     text-align: start;
@@ -1046,19 +1061,23 @@ a{
 .categories_li_1{
     font-size: large;
     margin-bottom: 3%;
+    color: var(--cl5);
 }
 .categories_li{
     font-size: x-large;
     margin-bottom: 4%;
 }
+.a_categories_li{color: var(--cl5) !important;}
 .a_categories_li:hover{color: #009FBD !important;}
 /*favourite*/
 .news_favourite_count{
     margin:0%;
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: xx-large;
+    color: var(--cl5);
 }
-
+/* Bookmark */
+.fa_heartcard{ color: #CD1818;}
 /* .dropdown{
     margin-right: 2%;
 }
@@ -1082,4 +1101,9 @@ a{
     left: 0;
     top: 0;
     pointer-events: auto;
+} */
+/* .main_about{
+    background-image: url('../image/layered-waves-haikei1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 } */

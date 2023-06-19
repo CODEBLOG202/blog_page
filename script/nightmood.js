@@ -6,14 +6,8 @@ let logo_img_2 = document.getElementsByClassName("logo_img_1")[1];
 let night_mood_img = document.getElementsByClassName("night_mood_img")[0];
 
 localStorage.setItem("mood", 0);
-
 window.onload = function(){
-
     let cat = Number(localStorage.getItem("moodpage"));
-    // localStorage.setItem("moodpage", 0);
-
-    // console.log(cat);
-
     if( cat % 2 != 0 ){
         root.style.setProperty('--cl4' , '#374151');
         root.style.setProperty('--cl5' , 'white');
@@ -44,23 +38,12 @@ window.onload = function(){
     }
 
 }
-
-// let count2 = 0;
-
-// let count3 = cat;
-
 let night_mood = document.getElementById("night_mood").addEventListener("click" , nightmood , true);
 function nightmood(){
     let count2 =  Number(localStorage.getItem("moodpage")) ;
-
     count2++;
-
-    console.log(count2);
-
     localStorage.setItem("mood", count2 );
-
     localStorage.setItem("moodpage", count2 );
-
     if( count2 % 2 != 0){
         root.style.setProperty('--cl4' , '#374151');
         root.style.setProperty('--cl5' , 'white');

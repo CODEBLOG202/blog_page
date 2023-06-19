@@ -55,7 +55,4 @@ let close_nav_btn = document.getElementsByClassName("close_nav_btn")[0];
 close_nav_btn.addEventListener("click" , res_nav_close , true);
 function res_nav(){ res_header.style.right = "0";}
 function res_nav_close() { res_header.style.right = "-100%"}
-
-// $(':radio').change(function() {
-//     console.log('New star rating: ' + this.value);
-//   });
+// $(':radio').change(function() { //console.log('New star rating: ' + this.value);//});

@@ -44,18 +44,21 @@
         width: 75px;
         height: 50px;
         font-size: 15px;
-        margin-left: 3%;
     }
     .icons_size {
         height: 18px;
         width: 18px;
     }
+    .title_area{flex-wrap: wrap;}
     .card{
-        width: 89.3%;
-        margin-left: 7%;
+        min-height: 490px;
+        width: 87.3%;
         margin-top: 13%;
     }
-    .count_save {width: 24%;}
+    .count_save {width: 27%;}
+    .card_title{font-size: x-large;}
+    .cardstar{font-size: large !important;}
+    .card_about{font-size: large;}
     .feedback{top: 74%;}
     .feedback, .up{
         width: 55px;
@@ -141,8 +144,96 @@
         flex-direction: column;
         align-items: center;
     }
-    .about_card {width: 85%;}
+    .about_card{
+        width: 250px;
+        height: 250px;
+    }
     .card_title_h3{font-size: large;}
+    /*News page */
+    .h1_header{font-size: xx-large;}
+    .news_statistica{font-size: medium;}
+    .filter_area_news{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .drpdow2 { 
+        margin-right: 0%;
+        margin-top: 4%;
+    }
+    .drpdow2:last-child {
+        margin: 0%;
+        margin-top: 4%;    
+    }
+    /* Favorites page */
+    .news_favourite_count{
+        font-size: large;
+        margin-left: 10%;
+    }
+    /* categories page */
+    .Categories_main_div{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .categories_conteiner{width: 100%;}
+    .categories_li{font-size: medium;}
+    /*Comment page*/
+    .comment_header{
+        flex-wrap: wrap;
+        margin-top: 1em;
+    }
+    .comment_header_h1{
+        font-size: small;
+    }
+    .visit_btn{
+        font-size: small;
+        padding: 6px 10px;
+    }
+    .checked , .fa-star {font-size: small;}
+    .comment_info_main {
+        flex-direction: column;
+        align-items: normal;
+    }
+    .image_a_comment {
+        min-height: 30vh;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+    .bio_comment_page{
+        width: 100%;
+        margin: 0%;
+    }
+    .bio_h3_1 {
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: large;
+    }
+    .li_use_cases{font-size: medium;}
+    .star_rating_place{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .rate_div{ width: 100%;}
+    .h3_rate_div{
+        padding: 10px 10px;
+        font-size: medium;
+        text-align: center;
+    }
+    .User_op{font-size: medium;}
+    .use_cases{ 
+        margin-top: 1em;
+    }
+    .info_ul_comment_page{
+        width: 100%;
+        margin: 0%;
+    }
+    .rating label , .icon {
+        float: left;
+        color: transparent;
+        font-size: 40px;
+    }
+    .modal-title{font-size: medium;}
+    .modal-h4{font-size: medium;}
+    .btn-secondary { padding:  5px 10px;}
 }
 @media screen and (min-width: 375px) and (max-width:424px) { 
     main{padding-top: 80px;}
@@ -188,19 +279,22 @@
         width: 75px;
         height: 50px;
         font-size: 15px;
-        margin-left: 3%;
     }
     .icons_size {
         height: 18px;
         width: 18px;
     }
+    .title_area{flex-wrap: wrap;}
     .card{
-        width: 89.3%;
-        margin-left: 7%;
+        min-height: 495px;
+        width: 87.3%;
         margin-top: 13%;
     }
-    .count_save {width: 20%;}
-    .feedback{top: 74%;}
+    .card_title{font-size: x-large;}
+    .count_save {width: 23%;}
+    .cardstar{font-size: large !important;}
+    .card_about{font-size: large;}
+    .feedback{top: 73%;}
     .feedback, .up{
         width: 55px;
         height: 55px;
@@ -285,12 +379,92 @@
         flex-direction: column;
         align-items: center;
     }
-    .about_card {width: 85%;}
-    .card_title_h3{font-size: large;}
-    .info_circle {
-        width: 55%;
-        height: 50%;
+    .about_card{
+        width: 250px;
+        height: 250px;
     }
+    .card_title_h3{font-size: large;}
+    /*News page */
+    .h1_header{font-size: xx-large;}
+    .news_statistica{font-size: medium;}
+    .filter_area_news{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .drpdow2 { 
+        margin-right: 0%;
+        margin-top: 4%;
+    }
+    .drpdow2:last-child {
+        margin: 0%;
+        margin-top: 4%;    
+    }
+    /* Favorites page */
+    .news_favourite_count{
+        font-size: large;
+        margin-left: 10%;
+    }
+    /* categories page */
+    .Categories_main_div{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .categories_conteiner{width: 100%;}
+    .categories_li{font-size: medium;}
+    /*Comment page*/
+    .comment_header_h1{
+        font-size: small;
+    }
+    .visit_btn{
+        font-size: small;
+        padding: 6px 10px;
+    }
+    .checked , .fa-star {font-size: small;}
+    .comment_info_main {
+        flex-direction: column;
+        align-items: normal;
+    }
+    .image_a_comment {
+        min-height: 30vh;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+    .bio_comment_page{
+        width: 100%;
+        margin: 0%;
+    }
+    .bio_h3_1 {
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: large;
+    }
+    .li_use_cases{font-size: medium;}
+    .star_rating_place{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .rate_div{ width: 100%;}
+    .h3_rate_div{
+        padding: 20px 20px;
+        font-size: large;
+        text-align: center;
+    }
+    .User_op{font-size: medium;}
+    .use_cases{ 
+        margin-top: 1em;
+    }
+    .info_ul_comment_page{
+        width: 100%;
+        margin: 0%;
+    }
+    .rating label , .icon {
+        float: left;
+        color: transparent;
+        font-size: 40px;
+    }
+    .modal-title{font-size: medium;}
+    .modal-h4{font-size: medium;}
+    .btn-secondary { padding:  5px 10px;}
 }
 @media screen and (min-width: 425px) and (max-width:767px) { 
     main{padding-top: 80px;}
@@ -335,18 +509,21 @@
         width: 90px;
         height: 50px;
         font-size: 15px;
-        margin-left: 8%;
     }
     .icons_size {
         height: 18px;
         width: 18px;
     }
+    .title_area{flex-wrap: wrap;}
     .card{
-        width: 89.3%;
-        margin-left: 7%;
+        min-height: 500px;
+        width: 85.3%;
         margin-top: 13%;
     }
-    .feedback{top: 74%;}
+    .card_title{font-size: x-large;}
+    .cardstar{font-size: larger !important;}
+    .card_about{font-size: large;}
+    .feedback{top: 73%;}
     .feedback, .up{
         width: 55px;
         height: 55px;
@@ -432,12 +609,92 @@
         flex-direction: column;
         align-items: center;
     }
-    .about_card {width: 85%;}
-    .card_title_h3{font-size: large;}
-    .info_circle {
-        width: 45%;
-        height: 50%;
+    .about_card{
+        width: 250px;
+        height: 250px;
     }
+    .card_title_h3{font-size: large;}
+    /*News page */
+    .h1_header{font-size: xx-large;}
+    .news_statistica{font-size: medium;}
+    .filter_area_news{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .drpdow2 { 
+        margin-right: 0%;
+        margin-top: 4%;
+    }
+    .drpdow2:last-child {
+        margin: 0%;
+        margin-top: 4%;    
+    }
+    /* Favorites page */
+    .news_favourite_count{
+        font-size: large;
+        margin-left: 10%;
+    }
+    /* categories page */
+    .Categories_main_div{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .categories_conteiner{width: 100%;}
+    .categories_li{font-size: medium;}
+    /*Comment page*/
+    .comment_header_h1{
+        font-size: small;
+    }
+    .visit_btn{
+        font-size: small;
+        padding: 6px 10px;
+    }
+    .checked , .fa-star {font-size: small;}
+    .comment_info_main {
+        flex-direction: column;
+        align-items: normal;
+    }
+    .image_a_comment {
+        min-height: 30vh;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+    .bio_comment_page{
+        width: 100%;
+        margin: 0%;
+    }
+    .bio_h3_1 {
+        width: 100%;
+        margin-bottom: 1em;
+        font-size: large;
+    }
+    .li_use_cases{font-size: medium;}
+    .star_rating_place{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .rate_div{ width: 100%;}
+    .h3_rate_div{
+        padding: 20px 20px;
+        font-size: large;
+        text-align: center;
+    }
+    .User_op{font-size: medium;}
+    .use_cases{ 
+        margin-top: 1em;
+    }
+    .info_ul_comment_page{
+        width: 100%;
+        margin: 0%;
+    }
+    .rating label , .icon {
+        float: left;
+        color: transparent;
+        font-size: 40px;
+    }
+    .modal-title{font-size: medium;}
+    .modal-h4{font-size: medium;}
+    .btn-secondary { padding:  5px 10px;}
 }
 @media (min-width:768px){.res_header{display: none;}}
 @media screen and (min-width: 768px) and (max-width:991px) { 
@@ -490,17 +747,20 @@
         width: 145px;
         height: 62px;
         font-size: 24px;
-        margin-left: 8%;
     }
     .icons_size {
         height: 25px;
         width: 25px;
     }
     .card{
+        min-height: 495px;
         width: 45.3%;
-        margin-left: 3%;
+        margin-top: 5%;
     }
-    .feedback{top: 74%;}
+    .card_title{font-size: x-large;}
+    .count_save{width: 21%;}
+    .card_about {font-size: large;}
+    .feedback{top: 72%;}
     .feedback, .up{
         width: 55px;
         height: 55px;
@@ -522,7 +782,7 @@
     .feedback_card {
         width: 39%;
         left: 50%;
-        top: 17%;
+        top: 20%;
     }
     #feedback_card2{top: 22%;}
     /*signin up page */
@@ -541,6 +801,10 @@
     .signup{font-size: 1.6em;}
     .form--submit{font-size: medium;}
     /*About page*/
+    .about_card{
+        width: 200px;
+        height: 200px;
+    }
     .about_title{
         width: 50%;
         font-size: larger;
@@ -550,11 +814,78 @@
         width: 50%;
         font-size: large;
     }
-    .info_circle {
-        width: 60%;
-        height: 40%;
-    }
     .card_title_h3{font-size: large;}
+    /*News page*/
+    .h1_header{font-size: xx-large;}
+    .news_statistica{font-size: x-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: large;}
+    .drpdow2:last-child {
+        margin-left: 20%;
+    }
+    /*favorite page*/
+    .news_favourite_count{font-size: x-large;}
+    /*categories page*/
+    .categories_li_1{font-size: x-large;}
+    .a_categories_li{font-size: medium;}
+    .cardstar{font-size: large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: large;}
+    .visit_btn{
+        font-size: small;
+        padding: 5px 20px;
+    }
+    .checked , .fa-star {font-size:medium;}
+    .a_commentpage{font-size:medium;}
+    .bio_header_p{font-size: small;}
+    .bio_p{ font-size: small;}
+    .categories_b{font-size:small;}
+    .categorie_p{font-size:small;}
+    .bio_a{font-size:small;}
+    .bio_h3_1{font-size: medium;}
+    .li_use_cases{font-size:medium;}
+    .use_cases{font-size: medium;}
+    .h3_rate_div{
+        font-size: smaller;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: small;}
+    .g-color-gray-dark-v1{font-size: large;}
+    .g-color-gray-dark-v4{font-size: large !important;}
+    .comment_main_p{font-size: medium;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: medium;}
+    .page-link{font-size: small;}
+    .modal-title{font-size: small;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .modal-content {
+        width: 65vh;
+        min-height: 50vh;
+        margin: auto;
+    }
+    .text_area_modal{
+        font-size: small;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: small;}
+    .btn-primary {
+        font-size: small;
+         margin-right: 5%;
+    }
+    .btn-secondary {
+         padding: 8px 15px;
+         margin-right: 5%;
+     }
+    .btn-close{font-size: small;}
+    .modal-h4{font-size: small;}
 }
 @media screen and (min-width: 992px) and (max-width:1199px) { 
     .navbar-brand{margin-left: 14vh;}
@@ -595,8 +926,8 @@
         width: 25px;
     }
     .card{
-        width: 28.3%;
-        margin-left: 4%;
+        width: 40.3%;
+        margin-top: 5%;
     }
     .p_fl_header {font-size: 20px;}
     .fl_button {font-size: 25px;}
@@ -618,10 +949,10 @@
     .feedback_card {
         width: 33%;
         left: 57%;
-        top: 33%;
+        top: 31%;
     }
-    .feedback{top: 76%;}
-    #feedback_card2{top: 30%;}
+    .feedback{top: 74%;}
+    #feedback_card2{top: 27%;}
     /*signin up page */
     .form {
         min-height: 65vh;
@@ -637,11 +968,79 @@
     }
     .signup{font-size: 1.6em;}
     .form--submit{font-size: medium;}
-     /*About page*/
+    /*About page*/
     .about_title{width: 50%;} 
     .hr_about{width: 50%;}
     .title_one{width: 50%;}
-    .info_circle {height: 40%;}
+    .card_title_h3{font-size: x-large;}
+    /*News page*/
+    .h1_header{font-size: xx-large;}
+    .news_statistica{font-size: x-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: large;}
+    .drpdow2:last-child {
+        margin-left: 39%;
+    }
+    /*favorite page*/
+    .news_favourite_count{font-size: x-large;}
+    /*categories page*/
+    .categories_li_1{font-size: x-large;}
+    .a_categories_li{font-size: large;}
+    .cardstar{font-size: x-large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: large;}
+    .visit_btn{font-size: medium;}
+    .checked , .fa-star {font-size:large;}
+    .a_commentpage{font-size:large;}
+    .bio_header_p{font-size: small;}
+    .bio_p{ font-size: medium;}
+    .categories_b{font-size:medium;}
+    .categorie_p{font-size:medium;}
+    .bio_a{font-size:medium;}
+    .bio_h3_1{font-size: x-large;}
+    .li_use_cases{font-size:large;}
+    .use_cases{font-size: x-large;}
+    .h3_rate_div{
+        font-size: large;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: large;}
+    .g-color-gray-dark-v1{font-size: large;}
+    .g-color-gray-dark-v4{font-size: large !important;}
+    .comment_main_p{font-size: medium;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: medium;}
+    .page-link{font-size: large;}
+    .modal-title{font-size: large;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .modal-content {
+        width: 65vh;
+        min-height: 50vh;
+        margin: auto;
+    }
+    .text_area_modal{
+        font-size: large;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: large;}
+    .btn-primary {
+        font-size: large;
+         margin-right: 5%;
+    }
+    .btn-secondary {
+         padding: 8px 15px;
+         margin-right: 5%;
+     }
+    .btn-close{font-size: x-large;}
+    .modal-h4{font-size: x-large;}
 }
 @media screen and (min-width: 1200px) and (max-width:1399px)  { 
     .h1_bigtext{margin-left: 33%;} 
@@ -651,10 +1050,6 @@
     }
     .btn_bigtext2 {margin-left: 39%;}
     .p_fl_header {font-size: 20px;}
-    .card{
-        width: 28.3%;
-        margin-left: 4%;
-    }
     .fl_button {font-size: 25px;}
     .p_fl_opt{font-size: 20px;}
     .option_ol {font-size: 20px;}
@@ -668,8 +1063,8 @@
     }
     .filter_box {height: 70vh;}
     .textarea_feedback{font-size: 19px;}
-    .feedback {top: 75%;}
-    .feedback_card{top: 32%;}
+    .feedback {top: 74%;}
+    .feedback_card{top: 29%;}
     /*signin up page */
     .form {
         min-height: 65vh;
@@ -689,11 +1084,75 @@
     .about_title{width: 50%;} 
     .hr_about{width: 50%;}
     .title_one{width: 50%;}
-    .info_circle {height: 45%;}
+    .card_title_h3{font-size: x-large;}
+    /*News page*/
+    .h1_header{font-size: xx-large;}
+    .news_statistica{font-size: x-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: large;}
+    /*favorite page*/
+    .news_favourite_count{font-size: x-large;}
+    /*categories page*/
+    .categories_li_1{font-size: x-large;}
+    .a_categories_li{font-size: large;}
+    .cardstar{font-size: x-large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: x-large;}
+    .visit_btn{font-size: large;}
+    .checked , .fa-star {font-size: large;}
+    .a_commentpage{font-size:large;}
+    .bio_header_p{font-size: medium;}
+    .bio_p{ font-size: medium;}
+    .categories_b{font-size:medium;}
+    .categorie_p{font-size:medium;}
+    .bio_a{font-size:medium;}
+    .bio_h3_1{font-size: x-large;}
+    .li_use_cases{font-size:large;}
+    .use_cases{font-size: x-large;}
+    .h3_rate_div{
+        font-size: large;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: large;}
+    .g-color-gray-dark-v1{font-size: large;}
+    .g-color-gray-dark-v4{font-size: large !important;}
+    .comment_main_p{font-size: medium;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: medium;}
+    .page-link{font-size: large;}
+    .modal-title{font-size: large;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .modal-content {
+        width: 65vh;
+        min-height: 50vh;
+        margin: auto;
+    }
+    .text_area_modal{
+        font-size: large;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: large;}
+    .btn-primary {
+        font-size: large;
+         margin-right: 5%;
+    }
+    .btn-secondary {
+         padding: 8px 15px;
+         margin-right: 5%;
+     }
+    .btn-close{font-size: x-large;}
+    .modal-h4{font-size: x-large;}
 }
 @media (min-width: 1400px) {
     .filter_box {height: 72vh;}
-    .filter_btn{margin-left: 12%;}
     .card_about {font-weight: 500;}
     .p_ls{font-size: 20px;}
     .text_company{font-size: 1.8rem;}
@@ -702,14 +1161,14 @@
     .feedback , .up {
         width: 70px;
         height: 70px;
-        top: 76%;
+        top: 75%;
     }
     .filter_apply{font-size: 24px;}
     .up {top:85%}
     .feedback_card{top:37%}
     .feedback_p{font-size: 1.5em;}
     .footer_ul_div{width: 28%;}
-    #feedback_card2{top: 34%;}
+    #feedback_card2{top: 30%;}
     .textarea_feedback{font-size: 21px;}
     /*signin up page */
     .form {
@@ -730,7 +1189,67 @@
     .about_title{width: 35%;} 
     .hr_about{width: 35%;}
     .title_one{width: 35%;}
-    .info_circle {height: 45%;}
+    .card_title_h3{font-size: x-large;}
+    /*News page*/
+    .h1_header{font-size: xxx-large;}
+    .news_statistica{font-size: xx-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: x-large;}
+    /*favorite page*/
+    .news_favourite_count{font-size: xx-large;}
+    /*categories page*/
+    .categories_li_1{font-size: xx-large;}
+    .a_categories_li{font-size: x-large;}
+    .cardstar{font-size: x-large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: xx-large;}
+    .visit_btn{font-size: large;}
+    .checked , .fa-star {font-size: large;}
+    .a_commentpage{font-size:large;}
+    .bio_header_p{font-size: large;}
+    .bio_p{ font-size: large;}
+    .categories_b{font-size:large;}
+    .categorie_p{font-size:large;}
+    .bio_a{font-size:large;}
+    .bio_h3_1{font-size: x-large;}
+    .li_use_cases{font-size:large;}
+    .use_cases{font-size: x-large;}
+    .h3_rate_div{
+        font-size: x-large;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: x-large;}
+    .g-color-gray-dark-v1{font-size: x-large;}
+    .g-color-gray-dark-v4{font-size: x-large !important;}
+    .comment_main_p{font-size: large;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: large;}
+    .page-link{font-size: x-large;}
+    .modal-title{font-size: x-large;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .text_area_modal{
+        font-size: x-large;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: large;}
+    .btn-primary {
+        font-size: large;
+         margin-right: 5%;
+    }
+    .btn-secondary {
+         padding: 8px 15px;
+         margin-right: 5%;
+     }
+    .btn-close{font-size: x-large;}
+    .modal-h4{font-size: x-large;}
 }
 @media (min-width: 1800px) {    
     main{padding-top: 125px;}
@@ -744,7 +1263,6 @@
     .search_input {width: 845px;}
     .btn_bigtext2 {margin-left: 42%;}    
     .h1_bigtext {margin-left: 39%;}
-    .filter_btn{margin-left: 22%;}
     .p_fl_header {font-size: 34px;}
     .fl_button {font-size: 50px;}
     .p_fl_opt{font-size: 37px;}
@@ -761,8 +1279,8 @@
     .count_save{width: 13%;}
     .card-link, .card-save {height: 60px;}
     .p_ls{font-size: 23px;}
-    .feedback_card{top:40%}
-    .up {top:83%}
+    .feedback_card{top:36%}
+    .up {top:84%}
     .feedback_p{font-size: 1.7em;}
     .btnfeed{font-size:1.6em;}
     .bord {
@@ -799,6 +1317,71 @@
     }
     .signup{font-size: 2.5em;}
     .form--submit{font-size: x-large;}
+    /*About page*/
+    .about_title{font-size: xx-large;} 
+    .hr_about{width: 35%;}
+    .title_one{width: 35%;}
+    .card_title_h3{font-size: x-large;}
+    /*News page*/
+    .h1_header{font-size: xxx-large;}
+    .news_statistica{font-size: xx-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: x-large;}
+    /*favorite page*/
+    .news_favourite_count{font-size: xx-large;}
+    /*categories page*/
+    .categories_li_1{font-size: xx-large;}
+    .a_categories_li{font-size: xx-large;}
+    .cardstar{font-size: xx-large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: xxx-large;}
+    .visit_btn{font-size: x-large;}
+    .checked , .fa-star {font-size: x-large;}
+    .a_commentpage{font-size: xx-large;}
+    .bio_header_p{font-size: xx-large;}
+    .bio_p{ font-size: x-large;}
+    .categories_b{font-size: x-large;}
+    .categorie_p{font-size: x-large;}
+    .bio_a{font-size: x-large;}
+    .bio_h3_1{font-size: xxx-large;}
+    .li_use_cases{font-size: xx-large;}
+    .use_cases{font-size: xx-large;}
+    .h3_rate_div{
+        font-size: xx-large;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: xx-large;}
+    .g-color-gray-dark-v1{font-size: xx-large;}
+    .g-color-gray-dark-v4{font-size: xx-large !important;}
+    .comment_main_p{font-size: x-large;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: x-large;}
+    .page-link{font-size: xx-large;}
+    .modal-title{font-size: xx-large;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .text_area_modal{
+        font-size: xx-large;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: x-large;}
+    .btn-primary {
+        font-size: xx-large;
+         margin-right: 5%;
+    }
+    .btn-secondary {
+         padding: 8px 15px;
+         margin-right: 5%;
+     }
+    .btn-close{font-size: xx-large;}
+    .modal-h4{font-size: xx-large;}
 
 }
 @media (min-width: 2000px) { 
@@ -810,12 +1393,11 @@
     .container-fluid{height: 125px;}
     .nav-link{font-size: 26px;}
     .h1_bigtext {margin-left: 39%;}
-    .filter_btn{margin-left: 23%;}
     .search_input {width: 891px;}
     .btn_bigtext2{margin-left: 42%;}
-    .card{min-height: 720px;}
+    .card{min-height: 790px;}
     .count_save{
-        width: 12%;
+        width: 14%;
         font-size: 22px;
     }
     .card_title {font-size: 45px;}
@@ -828,7 +1410,7 @@
         width: 31px;
     }
     .filter_apply {font-size: 37px;}
-    .feedback_card{top:43%}
+    .feedback_card{top:39%}
     .card_about{font-size: 27px;}
     .card-link, .card-save {height: 60px;}
     .p_ls{font-size: 25px;}
@@ -880,8 +1462,68 @@
     .about_title{font-size: xx-large;} 
     .hr_about{width: 35%;}
     .title_one{width: 35%;}
-    .info_circle {height: 45%;}
-    .card_title_h3{font-size: xx-large;}
+    .card_title_h3{font-size: x-large;}
+    /*News page*/
+    .h1_header{font-size: xxx-large;}
+    .news_statistica{font-size: xx-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: xx-large;}
+    /*favorite page*/
+    .news_favourite_count{font-size: xxx-large;}
+    /*categories page*/
+    .categories_li_1{font-size: xx-large;}
+    .a_categories_li{font-size: xx-large;}
+    .cardstar{font-size: xx-large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: xxx-large;}
+    .visit_btn{font-size: xx-large;}
+    .checked , .fa-star {font-size: xx-large;}
+    .a_commentpage{font-size: xx-large;}
+    .bio_header_p{font-size: xx-large;}
+    .bio_p{ font-size: x-large;}
+    .categories_b{font-size: x-large;}
+    .categorie_p{font-size: x-large;}
+    .bio_a{font-size: x-large;}
+    .bio_h3_1{font-size: xxx-large;}
+    .li_use_cases{font-size: xx-large;}
+    .use_cases{font-size: xx-large;}
+    .h3_rate_div{
+        font-size: xx-large;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: xx-large;}
+    .g-color-gray-dark-v1{font-size: xx-large;}
+    .g-color-gray-dark-v4{font-size: xx-large !important;}
+    .comment_main_p{font-size: x-large;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: x-large;}
+    .page-link{font-size: xx-large;}
+    .modal-title{font-size: xx-large;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .text_area_modal{
+        font-size: xx-large;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: xx-large;}
+    .btn-primary {
+        font-size: xx-large;
+        margin-right: 5%;
+    }
+    .btn-secondary {
+        padding: 8px 15px;
+        margin-right: 5%;
+    }
+    .btn-close{font-size: xx-large;}
+    .modal-h4{font-size: xx-large;}
+
 }
 @media (min-width: 2400px) { 
     .logo_title{font-size: 32px;}
@@ -905,7 +1547,6 @@
         font-size: 37px;
     }
     .filter_btn{
-        margin-left: 21%;
         width: 220px;
         height: 96px;
         font-size: 33px;
@@ -914,7 +1555,7 @@
     .card_title {font-size: 50px;}
     .card{min-height: 800px;}
     .count_save{
-        width: 12%;
+        width: 14%;
         font-size: 27px;
     }
     .card_about{font-size: 30px;}
@@ -985,11 +1626,69 @@
     .about_title{font-size: xx-large;} 
     .hr_about{width: 35%;}
     .title_one{width: 35%;}
-    .info_circle {height: 45%;}
-    .card_title_h3{font-size: xx-large;}
+    .card_title_h3{font-size: x-large;}
+    /*News page*/
+    .h1_header{font-size: xxx-large;}
+    .news_statistica{font-size: xx-large;}
+    .dropdown-toggle{font-size: xx-large;}
+    .dropdown-item{font-size: xx-large;}
+    /*favorite page*/
+    .news_favourite_count{font-size: xxx-large;}
+    /*categories page*/
+    .categories_li_1{font-size: xx-large;}
+    .a_categories_li{font-size: xx-large;}
+    .cardstar{font-size: xx-large !important;}
+    /* comment page */
+    .comment_header_h1{font-size: xxx-large;}
+    .visit_btn{font-size: xx-large;}
+    .checked , .fa-star {font-size: xx-large;}
+    .a_commentpage{font-size: xx-large;}
+    .bio_header_p{font-size: xx-large;}
+    .bio_p{ font-size: x-large;}
+    .categories_b{font-size: x-large;}
+    .categorie_p{font-size: x-large;}
+    .bio_a{font-size: x-large;}
+    .bio_h3_1{font-size: xxx-large;}
+    .li_use_cases{font-size: xx-large;}
+    .use_cases{font-size: xx-large;}
+    .h3_rate_div{
+        font-size: xx-large;
+        padding: 30px 0px;
+    }
+    .User_op{font-size: xx-large;}
+    .g-color-gray-dark-v1{font-size: xx-large;}
+    .g-color-gray-dark-v4{font-size: xx-large !important;}
+    .comment_main_p{font-size: x-large;}
+    .media-comment {
+        margin-top: 40px;
+    }
+    .list-inline-item{font-size: xx-large;}
+    .page-link{font-size: xx-large;}
+    .modal-title{font-size: xx-large;}
+    .modal-dialog {
+        width: 80%;
+        margin: 20%;
+    }
+    .text_area_modal{
+        font-size: xx-large;
+        width: 90%;
+        padding: 5% 6%;
+        margin-top: 3%;
+        height: 70%;
+    }
+    .btn-secondary{font-size: xx-large;}
+    .btn-primary {
+        font-size: xx-large;
+        margin-right: 5%;
+    }
+    .btn-secondary {
+        padding: 8px 15px;
+        margin-right: 5%;
+    }
+    .btn-close{font-size: xx-large;}
+    .modal-h4{font-size: xx-large;}
 }
 @media screen and (min-height: 450px) and (max-height: 549px) and (max-width: 350px) { 
-    .filter_btn {margin-left: 7%;}
     .filter_box {height: 69vh;}
     .p_fl_header {font-size: 14px;}
     .p_fl_opt {font-size: 14px;}
@@ -1001,7 +1700,6 @@
     }
 }
 @media screen and (min-height: 550px) and (max-height: 649px) and (max-width: 374px){ 
-    .filter_btn {margin-left: 9%;}
     .filter_box {height: 58vh;}
     .p_fl_header {font-size: 14px;}
     .p_fl_opt {font-size: 14px;}
@@ -1027,13 +1725,16 @@
     .feedback_card{top: 39%;}
     .h1_bigtext{margin-left: 22%;}
     .btn_bigtext2{ margin-left: 28%;}
-    .filter_btn {margin-left: 7%;}
     #feedback_card2 {
         top: 34%;
     }
     /*sigin up page */
     .form{min-height: 42vh;}
     .form--submit{margin-top: 10%;}
+    /* comment page */
+    .modal-content{
+        width: 41vh;
+    }
 }
 @media screen and (min-height: 750px) and (max-height: 849px) and (max-width: 420px) { 
     .night_mood{margin-left: 17%;}
@@ -1041,18 +1742,28 @@
     .filter_box {height: 51vh;}
     .feedback_card{top: 45%;}
     .feedback {top: 77%;}
-    .filter_btn {margin-left: 7%;}
     #feedback_card2 {
         top: 37%;
     }
     /*sigin up page */
     .form{min-height: 38vh;}
     .form--submit{margin-top: 10%;}
+    .card_title_h3{margin-top: 1em;}
+    .about_card {margin-bottom: 1em;}
+    /* comment page */
+    .modal-content{
+        width: 41vh;
+    }
+    .image_a_comment {min-height: 21vh;}
+    .text_area_modal {
+        width: 95%;
+        padding: 6% 5%;
+        height: 80%;
+    }
 }
 @media screen and (min-height: 850px) and (max-height: 949px) and (max-width: 450px){ 
     .night_mood{margin-left: 17%;}
     .close_nav_btn {margin-left: 28%;}
-    .filter_btn{margin-left: 6%;}
     .filter_box {height: 45vh;}
     .feedback_card{top: 49%;}
     .feedback {top: 78%;}
@@ -1063,11 +1774,18 @@
     .form{min-height: 38vh;}
     .form--submit{margin-top: 10%;}
     /*About page*/
-    .info_circle {
-        width: 55%;
-        height: 50%;
+    .card_title_h3{margin-top: 1em;}
+    .about_card {margin-bottom: 1em;}
+    /* comment page */
+    .modal-content{
+        width: 41vh;
     }
-    .about_card{height: 40vh;}
+    .image_a_comment {min-height: 21vh;}
+    .text_area_modal {
+        width: 95%;
+        padding: 8% 5%;
+        height: 80%;
+    }
 }
 @media screen and (min-height: 950px) and (max-height: 1049px) and (max-width: 800px){ 
     .navbar-brand {margin-left: 5vh;}
@@ -1087,10 +1805,9 @@
     }
     .form--submit {font-size: x-large;}
     /*About page*/
-    .info_circle {
-        width: 70%;
-        height: 25%;
-    }
+    /* comment page */
+    .image_a_comment{width: 95%;}
+    .comment_info_main{flex-wrap: wrap;}
 }
 @media screen and (min-height: 1350px) and (max-height: 1450px) and (max-width: 1100px){ 
     .navbar-brand {margin-left: 5vh;}
@@ -1111,9 +1828,13 @@
     }
     .form--submit {font-size: xx-large;}
     /*About page*/
-    .info_circle {
-        width: 70%;
-        height: 25%;
+    /* comment page */
+    .comment_header {height: 10vh;}
+    .image_a_comment{width: 95%;}
+    .comment_info_main{flex-wrap: wrap;}
+    .bio_comment_page{
+        min-height: 23vh;
+        margin-left: 0%;
     }
 }
 @media screen and (height: 768px) and (width: 1366px){ 
@@ -1123,7 +1844,6 @@
         top: 29%;
     }
     /*About page*/
-    .info_circle{width: 50%;}
 }
 /*commentpage res*/
 @media (min-width: 0) {
